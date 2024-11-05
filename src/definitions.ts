@@ -1,3 +1,3 @@
 export interface CapacitorAppRestartPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  restartApp(): Promise<void>;
 }

@@ -13,24 +13,18 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
+* [`restartApp()`](#restartapp)
 
 </docgen-index>
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
+### restartApp()
 
 ```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
+restartApp() => Promise<void>
 ```
-
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
-
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
 --------------------
 
